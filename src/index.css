@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 .navOptions{
-  @apply p-1 py-4  hover:text-yellow-300 sm:pt-5 sm:text-lg;
+  @apply p-1 py-4 hover:text-yellow-300 sm:pt-5 sm:text-lg;
 }
 @tailwind utilities;
 

@@ -11,13 +11,13 @@ function Navbar() {
             alt="Logo"
             className="w-10 h-12 sm:mt-1 sm:w-12 sm:h-13"
           />
-          <div className="text-center font-bold pt-6 sm:ml-3 hover:text-yellow-500">
+          <div className="text-center text-xl font-extralight pt-5 sm:ml-3 hover:text-yellow-500">
             BURGERO
           </div>
         </div>
-        <ul className="md:w-2/5 flex justify-around font-medium text-base sm:mr-3 sm:justify-evenly">
+        <ul className=" flex justify-around font-medium text-base sm:mr-3 sm:justify-evenly sm:w-2/3 md:w-1/2 lg:w-2/5">
           <a className="navOptions" href="/">
-            Home
+            New
           </a>
           <a className="navOptions" href="/Menu">
             Menu
