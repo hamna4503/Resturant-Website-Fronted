@@ -4,6 +4,7 @@ import Navbar from "../Components/Navbar";
 // import BurgerHome from "../Assets/images/home/png-image (2).png";
 
 import BurgerHome from "../Assets/images/home/homeBurger.png";
+import Offers from "./Offers";
 
 function Home() {
   return (
@@ -29,6 +30,7 @@ function Home() {
           className="mt-5 ml-4 self-center md:w-1/2"
         />
       </div>
+      <Offers/>
     </div>
   );
 }
