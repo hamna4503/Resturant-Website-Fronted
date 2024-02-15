@@ -5,10 +5,11 @@ import Navbar from "../Components/Navbar";
 
 import BurgerHome from "../Assets/images/home/homeBurger.png";
 import Offers from "./Offers";
+import Menu from "./Menu";
 
 function Home() {
   return (
-    <div className="bg-gradient-to-r from-red-900 via-red-700 to-red-400">
+    <div className="bg-gradient-to-r from-red-900 via-red-700 to-red-400 ">
       <Navbar />
       <div className="flex flex-col  p-3 align-middle justify-center sm:mt-8 mt-3 md:flex-row md:mt-4">
         <div className="md:pl-5">
@@ -27,10 +28,11 @@ function Home() {
         <img
           src={BurgerHome}
           alt="burgerPic"
-          className="mt-5 ml-4 self-center md:w-1/2"
+          className="mt-5 ml-4 self-center md:w-1/2 "
         />
       </div>
-      <Offers/>
+      <Offers />
+      <Menu />
     </div>
   );
 }
