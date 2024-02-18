@@ -1,15 +1,13 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
-// import BurgerHome from "../Assets/images/offers/offer 1.png";
-// import BurgerHome from "../Assets/images/home/png-image (2).png";
-
 import BurgerHome from "../Assets/images/home/homeBurger.png";
 import Offers from "./Offers";
 import Menu from "./Menu";
+import Outlets from "./Outlets";
 
 function Home() {
   return (
-    <div className="bg-gradient-to-r from-red-900 via-red-700 to-red-400 ">
+    <div className="bg-gradient-to-r from-red-900 via-red-700 to-red-400 select-none">
       <Navbar />
       <div className="flex flex-col  p-3 align-middle justify-center sm:mt-8 mt-3 md:flex-row md:mt-4">
         <div className="md:pl-5">
@@ -33,6 +31,7 @@ function Home() {
       </div>
       <Offers />
       <Menu />
+      <Outlets/>
     </div>
   );
 }
