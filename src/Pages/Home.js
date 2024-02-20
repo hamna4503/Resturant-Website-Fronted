@@ -6,6 +6,7 @@ import Menu from "./Menu";
 import Outlets from "./Outlets";
 
 function Home() {
+  // Checking push command
   return (
     <div className="bg-gradient-to-r from-red-900 via-red-700 to-red-400 select-none">
       <Navbar />
