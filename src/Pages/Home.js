@@ -30,7 +30,9 @@ function Home() {
         />
       </div>
       <Offers />
-      <Menu />
+      <div id="menu">
+      <Menu/>
+      </div>
       <Outlets/>
     </div>
   );

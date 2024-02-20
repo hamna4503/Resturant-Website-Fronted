@@ -19,7 +19,7 @@ function Navbar() {
           <a className="navOptions" href="/">
             New
           </a>
-          <a className="navOptions" href="/Menu">
+          <a className="navOptions" href="#menu">
             Menu
           </a>
           <a className="navOptions" href="/Offers">
