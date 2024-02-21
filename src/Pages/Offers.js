@@ -5,13 +5,13 @@ import offer3 from "../../src/Assets/images/offers/offer4.jpg";
 
 function Offers() {
   return (
-    <>
-      <div className="flex w-full lg:flex-row bg-gray-700">
-        <div className="w-1/2 h-screen relative mr-2">
+    <div>
+      <div className="flex flex-col w-screen md:flex-row bg-gray-600">
+        <div className="w-screen h-3/4 md:w-1/2 md:h-screen relative mr-0.5">
           <img
             src={offer3}
             alt="Offer1"
-            className="w-full opacity-60 hover:opacity-55 h-screen object-cover"
+            className="w-full opacity-60 hover:opacity-55 md:h-screen h-1/2 object-cover"
           />
           <p className="absolute bottom-1/4 font-extrabold text-6xl text-gray-200 p-4 pl-6">
             <h1 className="font-bold text-3xl">Deal of the day</h1>
@@ -22,8 +22,8 @@ function Offers() {
           </p>
         </div>
 
-        <div className="flex flex-col h-screen w-1/2">
-          <div className="h-1/2 relative mb-2">
+        <div className="flex flex-col h-screen w-screen md:w-1/2">
+          <div className="h-1/2 relative mb-0.5">
             <img
               src={offer2}
               alt="Offer1"
@@ -53,7 +53,7 @@ function Offers() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

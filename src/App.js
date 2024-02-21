@@ -1,16 +1,35 @@
-import "./App.css";
+
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./Components/Navbar";
-import Home from "./Pages/Home";
 import Offers from "./Pages/Offers";
+import Outlets from "./Pages/Outlets";
+import Menu from "./Pages/Menu";
+import NewArrivals from "./Pages/NewArrivals";
+import Reviews from "./Pages/Reviews";
 function App() {
   return (
-    <BrowserRouter className="h-full">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/offers" element={<Offers />} />
-      </Routes>
-    </BrowserRouter>
+    <div className="bg-gradient-to-r from-red-900 via-red-700 to-red-400 top-0 overflow-hidden select-none">
+      <Navbar/>
+      
+      <div id="newArrivals">
+      <NewArrivals/>
+      </div>
+      
+      <div id="offers">
+      <Offers />
+      </div>
+
+      <div id="menu">
+      <Menu/>
+      </div>
+
+      <div id="reviews">
+        <Reviews/>
+      </div>
+      <div id="outlet">
+      <Outlets/>
+      </div>
+    </div>
   );
 }
 

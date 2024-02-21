@@ -5,12 +5,11 @@ import Offers from "./Offers";
 import Menu from "./Menu";
 import Outlets from "./Outlets";
 
-function Home() {
+function NewArrivals() {
   // Checking push command
   return (
-    <div className="bg-gradient-to-r from-red-900 via-red-700 to-red-400 select-none">
-      <Navbar />
-      <div className="flex flex-col  p-3 align-middle justify-center sm:mt-8 mt-3 md:flex-row md:mt-4">
+    <div className="select-none pt-10">
+      <div className="flex flex-col p-3 pt-20 align-middle justify-center sm:mt-8 mt-3 md:flex-row md:mt-4">
         <div className="md:pl-5">
           <h1 className="text-5xl text-white font-extrabold text-center sm:text-7xl md:text-7xl lg:text-8xl xl:text-9xl 2xl:mt-20">
             THE SMOKEY BURGER
@@ -30,13 +29,8 @@ function Home() {
           className="mt-5 ml-4 self-center md:w-1/2 "
         />
       </div>
-      <Offers />
-      <div id="menu">
-      <Menu/>
-      </div>
-      <Outlets/>
     </div>
   );
 }
 
-export default Home;
+export default NewArrivals;
