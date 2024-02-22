@@ -6,7 +6,7 @@ import Menu from "./Menu";
 import Outlets from "./Outlets";
 
 function NewArrivals() {
-  // Checking push command
+
   return (
     <div className="select-none pt-10">
       <div className="flex flex-col p-3 pt-20 align-middle justify-center sm:mt-8 mt-3 md:flex-row md:mt-4">

@@ -2,8 +2,8 @@ import React from 'react'
 
 function Reviews() {
   return (
-    <div>
-      HEHEH
+    <div className='flex bg-black h-screen w-screen'>
+      
     </div>
   )
 }

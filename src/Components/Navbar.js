@@ -16,21 +16,51 @@ function Navbar() {
           </div>
         </div>
         <ul className=" flex justify-around font-medium text-base sm:mr-3 sm:justify-evenly sm:w-2/3 md:w-1/2 lg:w-2/5">
-          <a className="navOptions" href="#newArrivals">
+          <a
+            className="navOptions"
+            onClick={() => {
+              const section = document.querySelector("#newArrivals");
+              section.scrollIntoView({ behavior: "smooth", block: "start" });
+            }}
+          >
             New
           </a>
-          <a className="navOptions" href="#offers">
+          <a
+            className="navOptions"
+            onClick={() => {
+              const section = document.querySelector("#offers");
+              section.scrollIntoView({ behavior: "smooth", block: "start" });
+            }}
+          >
             Offers
           </a>
-          <a className="navOptions" href="#menu">
+          <a
+            className="navOptions"
+            onClick={() => {
+              const section = document.querySelector("#menu");
+              section.scrollIntoView({ behavior: "smooth", block: "start" });
+            }}
+          >
             Menu
           </a>
-          <a className="navOptions" href="#outlet">
+          <a
+            className="navOptions"
+            onClick={() => {
+              const section = document.querySelector("#reviews");
+              section.scrollIntoView({ behavior: "smooth", block: "start" });
+            }}
+          >
+            Reviews
+          </a>
+          <a
+            className="navOptions"
+            onClick={() => {
+              const section = document.querySelector("#outlet");
+              section.scrollIntoView({ behavior: "smooth", block: "start" });
+            }}
+          >
             Outlets
           </a>
-          {/* <a className="navOptions" href="#Contact">
-            Contact
-          </a> */}
         </ul>
       </div>
     </nav>

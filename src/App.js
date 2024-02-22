@@ -6,6 +6,7 @@ import Outlets from "./Pages/Outlets";
 import Menu from "./Pages/Menu";
 import NewArrivals from "./Pages/NewArrivals";
 import Reviews from "./Pages/Reviews";
+import Footer from "./Components/Footer";
 function App() {
   return (
     <div className="bg-gradient-to-r from-red-900 via-red-700 to-red-400 top-0 overflow-hidden select-none">
@@ -24,11 +25,13 @@ function App() {
       </div>
 
       <div id="reviews">
-        <Reviews/>
+        {/* <Reviews/> */}
       </div>
       <div id="outlet">
       <Outlets/>
       </div>
+
+      <Footer/>
     </div>
   );
 }

@@ -8,7 +8,7 @@ import HeadingSection from '../Components/HeadingSection'
 
 function Outlets() {
   return (
-    <div className='bg-gradient-to-r from-gray-300 via-gray-200 to-gray-300 pt-20 h-full pb-20'>
+    <div className='bg-gradient-to-r from-gray-300 via-gray-200 to-gray-300 pt-20 h-full pb-40'>
       
       <HeadingSection topHeading="Our Outlets" bottomHeading="Find an Outlet Near You"/>
 
