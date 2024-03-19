@@ -11,55 +11,56 @@ function Navbar() {
             alt="Logo"
             className="w-10 h-12 sm:mt-1 sm:w-12 sm:h-13"
           />
-          <div className="text-center text-xl font-extralight pt-5 sm:ml-3 hover:text-yellow-500">
+          <a
+            href="/"
+            className="text-center text-xl font-extralight pt-5 sm:ml-3 hover:text-yellow-500"
+          >
             BURGERO
-          </div>
+          </a>
         </div>
         <ul className=" flex justify-around font-medium text-base sm:mr-3 sm:justify-evenly sm:w-2/3 md:w-1/2 lg:w-2/5">
           <a
             className="navOptions"
-            onClick={() => {
-              const section = document.querySelector("#newArrivals");
-              section.scrollIntoView({ behavior: "smooth", block: "start" });
-            }}
+            // onClick={() => {
+            //   const section = document.querySelector("#newArrivals");
+            //   section.scrollIntoView({ behavior: "smooth", block: "start" });
+            // }}
+            href="/#newArrivals"
           >
             New
           </a>
           <a
             className="navOptions"
-            onClick={() => {
-              const section = document.querySelector("#offers");
-              section.scrollIntoView({ behavior: "smooth", block: "start" });
-            }}
+            // onClick={() => {
+            //   const section = document.querySelector("#offers");
+            //   section.scrollIntoView({ behavior: "smooth", block: "start" });
+            // }}
+            href="/#offers"
           >
             Offers
           </a>
           <a
             className="navOptions"
-            onClick={() => {
-              const section = document.querySelector("#menu");
-              section.scrollIntoView({ behavior: "smooth", block: "start" });
-            }}
+            // onClick={() => {
+            //   const section = document.querySelector("#menu");
+            //   section.scrollIntoView({ behavior: "smooth", block: "start" });
+            // }}
+            href="/#menu"
           >
             Menu
           </a>
           <a
             className="navOptions"
-            onClick={() => {
-              const section = document.querySelector("#reviews");
-              section.scrollIntoView({ behavior: "smooth", block: "start" });
-            }}
-          >
-            Reviews
-          </a>
-          <a
-            className="navOptions"
-            onClick={() => {
-              const section = document.querySelector("#outlet");
-              section.scrollIntoView({ behavior: "smooth", block: "start" });
-            }}
+            // onClick={() => {
+            //   const section = document.querySelector("#outlet");
+            //   section.scrollIntoView({ behavior: "smooth", block: "start" });
+            // }}
+            href="/#outlet"
           >
             Outlets
+          </a>
+          <a className="navOptions" href="/cart">
+            Cart
           </a>
         </ul>
       </div>
